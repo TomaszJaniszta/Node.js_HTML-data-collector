@@ -39,7 +39,7 @@ const addAd = (newAdd) => {
     ad.price = newAdd.price;
     ad.location = newAdd.location;
     ad.contact = newAdd.contact;
-    ad.createdTime = new Date().toString();
+    ad.createdTime = new Date();
     return adsCollection.insertOne(ad);
 }
 
@@ -52,9 +52,7 @@ const updateAd = (id, modifiedAd) => {
                     "category": (modifiedAd.category),
                     "tags": (modifiedAd.tags), 
                     "price": (modifiedAd.price), 
-                    "location": (modifiedAd.location) ,
-                    // "createdTime": (modifiedAd.createdTime)
-                }}
+                    "location": (modifiedAd.location) }}
     );
 }
 
