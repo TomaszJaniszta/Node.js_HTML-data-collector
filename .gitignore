@@ -1,3 +1,4 @@
 HTML_data_collector/node_modules/
 Ads_board/.env
 Ads_board/node_modules/
+.gitignore
