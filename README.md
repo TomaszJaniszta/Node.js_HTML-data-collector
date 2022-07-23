@@ -21,11 +21,6 @@ The port used by the application is set using environment variables (not include
 
 # HTML_data_collector
 
-* **npm init -y**
-* **npm install**
-* **node api.js**
-* **node snippet2.js**
-
 Sample application for collecting data from the site. 
 As an example, the olx portal, with chosen category of cars. 
 The application collects specific data of all vehicles of this brand from the portal.
