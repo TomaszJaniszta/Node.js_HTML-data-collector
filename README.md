@@ -1,4 +1,4 @@
-# HTML_data_collector
+# HTML-data-collector
 
 Sample application for collecting data from the site. 
 As an example, the olx portal, with chosen category of cars. 
